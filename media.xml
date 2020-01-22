@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <SurfaceView android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/surface" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/play" android:background="@null" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/play"/>
+        <ImageButton android:id="@+id/pause" android:background="@null" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pause"/>
+        <ImageButton android:id="@+id/stop" android:background="@null" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stop"/>
+    </LinearLayout>
+    <TextView android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/textbox_topleft" android:text="@string/defaultIndicatorText" style="@style/IndicatorBox"/>
+    <TextView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/textbox_topright" android:text="@string/defaultIndicatorText" style="@style/IndicatorBox"/>
+    <TextView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/textbox_bottomleft" android:text="@string/defaultIndicatorText" style="@style/IndicatorBox"/>
+    <TextView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/textbox_bottomright" android:text="@string/defaultIndicatorText" style="@style/IndicatorBox"/>
+</FrameLayout>

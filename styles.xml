@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="IndicatorBox" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">#ffffff00</item>
+        <item name="android:background">#66003300</item>
+        <item name="android:padding">12.0dip</item>
+        <item name="android:layout_width">352.0dip</item>
+        <item name="android:layout_height">240.0dip</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginTop">12.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+        <item name="android:layout_marginBottom">12.0dip</item>
+    </style>
+</resources>

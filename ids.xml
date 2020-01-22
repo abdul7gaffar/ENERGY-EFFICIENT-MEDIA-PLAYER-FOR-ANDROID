@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="continueBtn">false</item>
+    <item type="id" name="surface">false</item>
+    <item type="id" name="play">false</item>
+    <item type="id" name="pause">false</item>
+    <item type="id" name="stop">false</item>
+    <item type="id" name="textbox_topleft">false</item>
+    <item type="id" name="textbox_topright">false</item>
+    <item type="id" name="textbox_bottomleft">false</item>
+    <item type="id" name="textbox_bottomright">false</item>
+    <item type="id" name="action_settings">false</item>
+</resources>
